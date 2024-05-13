@@ -1,0 +1,26 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "create-block/dmg-media-read-more",
+  "version": "0.1.0",
+  "title": "Dmg Media Read More",
+  "category": "widgets",
+  "icon": "search",
+  "description": "Example block scaffolded with Create Block tool.",
+  "attributes": {
+    "selectedPost": {
+      "type": "number",
+      "default": null
+    }
+  },
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "textdomain": "dmg-media-read-more",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php",
+  "viewScript": "file:./view.js"
+}
